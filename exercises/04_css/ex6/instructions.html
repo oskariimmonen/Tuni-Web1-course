@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS media queries</title>
+</head>
+<body>
+    <h1>Media queries</h1>
+    <h2>Instructions</h2>
+     <div class="panel-body">
+    <p>Responsiveness implies the ability of Web content to adapt to a
+      new circumstances, such as the browser window being resized, or being viewed
+      with on different sized displays.
+      In a previous exercise we implemented the CSS for the UI shop.
+      This exercise extends the layout by making it responsive, but now with media queries.
+    </p>
+    <p>Make online shop adapt to different device sizes using CSS media queries. The sizes needed for this exercise are listed here:</p>
+
+<table style="font-size: 80%;">
+            <tbody><tr>
+              <td>Small phone</td>
+              <td>&lt; 600px</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>600px - 767px</td>
+            </tr>
+            <tr>
+              <td>Tablet</td>
+              <td>768px - 991px</td>
+            </tr>
+            <tr>
+              <td>Desktop</td>
+              <td>992px - 1199px</td>
+            </tr>
+            <tr>
+              <td>Wide desktop</td>
+              <td>&gt;= 1200px</td>
+            </tr>
+          </tbody></table>
+      
+<p>Grids can be used as an assisting tool.</p>
+
+    <p>The procedure is the following:</p>
+    <ul>
+      <li>Copy index.html and styles.css from <code>ex4</code> to <code>ex6</code></li>
+      <li>Add responsiveness to <kpd>styles.css</kpd> with media queries, like in the previous exercise with fluid
+        grids. The layouts for the different screen sizes are as follows (the elements IDs remain the same as in previous exercises): 
+        <ul>
+          <li>if size is <em>small phone</em>,
+            <em>section</em>, <em>aside</em>, and <em>nav</em>
+            elements reside in one column; the order is s1, a1, s2, a2, s3, n1, n2</li>
+          <li>if the size is <em>phone</em> or <em>tablet</em>, elements are set in two columns, 
+            the order remains the same, however, <em>nav</em> elements must go to a separate row</li>
+          <li>if size &gt;<em>tablet</em>, elements are set in three columns. Now, the order changes a bit: 
+          first row consists of s1, s2, and a1, next row of s3 and a2; the last row of n1 and n2. Three columns in each row.</li>
+          <li>if there is need for empty elements, these are put in the middle.</li>
+          <li>Save your style definitions in styles.css.</li>
+        </ul>    
+      </li>
+      <li>Commit your changes to git repo</li>
+      <li>Submit your work to Plussa</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
